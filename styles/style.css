@@ -1,6 +1,25 @@
-.search-form-bar {
+.header {
     display: flex;
+    align-items: center;
 }
+
+.search-form {
+    display: flex;
+    height: 46px;
+    width: 692px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background: #fff;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 133px;
+    background-image: url();
+
+}
+
+.search-form:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);}
 
 .navbar {
     display: flex;
