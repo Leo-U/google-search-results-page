@@ -1,6 +1,15 @@
 .header {
     display: flex;
+    list-style-type: none;
+    flex-direction: row;
     align-items: center;
+    padding-top: 12px;
+}
+
+.logo {
+    padding-left: 16px;
+    padding-right: 45px;
+    margin-top: 5px;
 }
 
 .search-form {
@@ -11,15 +20,63 @@
     border-radius: 24px;
     background: #fff;
     font-size: 16px;
+    font-family: arial, sans-serif;
+    padding-bottom: 3px;
     padding-left: 20px;
-    padding-right: 133px;
-    background-image: url();
+    padding-right: 138px;
+    background-image: url(https://raw.githubusercontent.com/Leo-U/google-search-results-page/master/images/search-background.png);
+    background-repeat: no-repeat;
+    background-size: 109px;
+    background-position-x: 562px;
+    background-position-y: 5.5px;
 
 }
 
 .search-form:hover {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
-    border-color: rgba(223,225,229,0);}
+    border-color: rgba(223,225,229,0);
+}
+
+
+
+
+
+.apps-container {
+    margin-top: 5px;
+}
+
+.apps-img {
+    opacity: .65;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.apps-img:hover {
+    background-color: rgba(60, 64, 67, 0.1);
+    border-radius: 50%;
+}
+
+.accounts-button {
+    color: #fff;
+    background-color:#1a73e8;
+    font-family: arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: .25px;
+    padding: 9px 23px;
+    line-height: 16px;
+    min-width: 96px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 28px;
+    margin-left: 14px;
+}
+
+.apps-container {
+    float: left;
+}
 
 .navbar {
     display: flex;
@@ -27,7 +84,6 @@
     margin: 0;
     padding: 0;
 }
-
 
 
 
