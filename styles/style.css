@@ -1,3 +1,22 @@
+body {
+    margin: 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #222;
+    
+}
+
+body a:link {
+    text-decoration: none;
+}
+
+.header-nav-container {
+    margin: 8px;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -80,8 +99,6 @@
     margin-left: 14px;
 }
 
-
-
 .navbar {
     display: flex;
     align-items: baseline;
@@ -91,10 +108,12 @@
     font-size: 13px;
     margin-top: 22px;
     margin-left: 162px;
+    justify-items: center;
     
 }
 
 .nav-all-link {
+    display: inline;
     border-bottom: 3px solid #1a73e8;
     padding-left: 8px;
     padding-right: 12px;
@@ -102,8 +121,14 @@
     
 }
 
-.nav-all, .nav-news, .nav-maps, .nav-videos, .nav-shopping, .nav-settings {
-    margin-right: 1em;
+.nav-all {
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.nav-news, .nav-maps, .nav-videos, .nav-shopping, .nav-settings {
+    margin-right: 1.8em;
+    flex-shrink: 0;
 }
 
 .img-all, .img-news, .img-maps, .img-shopping, .img-more {
@@ -120,7 +145,8 @@
 
 
 .nav-more {
-    margin-right: 85px;
+    margin-right: 98px;
+    flex-shrink: 0;
 }
 
 .navbar a:link {
@@ -131,3 +157,76 @@
     text-decoration: none;
     color: #5f6368;
 }
+
+.nav-border {
+    display: flex;
+    width: 100%;
+    min-width: 1280px;
+    height: 5px;
+    margin-right: 0;
+    left: 0px;
+    border-bottom: 1px solid #ebebeb;
+    
+}
+
+.search-results {
+    margin-left: 180px;
+    width: 600px;
+
+}
+
+.results-count {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #70757a;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+
+em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.down-arrow {
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-color: #70757a transparent;
+    margin-top: 9px;
+    margin-left: 8px;
+
+}
+
+.results-top {margin-bottom: -12px;}
+
+.results-top-1 {
+    color: #202124;
+    font-size: 14px;
+}
+
+.results-top-2 {
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.results-middle {
+    font-size: 20px;
+}
+
+.results-bottom {
+    margin-top: 5px;
+    margin-bottom: 29px;
+    font-size: 14px;
+    color: #4d5156;
+    line-height: 1.58;
+}
+
+.static {
+    position:absolute;
+    background: white;
+  }
+  
