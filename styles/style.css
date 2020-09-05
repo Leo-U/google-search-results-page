@@ -217,6 +217,10 @@ em {
     font-size: 20px;
 }
 
+.results-middle:hover {
+    text-decoration: underline;
+}
+
 .results-bottom {
     margin-top: 5px;
     margin-bottom: 29px;
