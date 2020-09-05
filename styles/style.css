@@ -13,6 +13,7 @@ body a:link {
     text-decoration: none;
 }
 
+
 .header-nav-container {
     margin: 8px;
 }
@@ -109,7 +110,6 @@ body a:link {
     margin-top: 22px;
     margin-left: 162px;
     justify-items: center;
-    
 }
 
 .nav-all-link {
@@ -118,7 +118,6 @@ body a:link {
     padding-left: 8px;
     padding-right: 12px;
     padding-bottom: 12px;
-    
 }
 
 .nav-all {
@@ -221,12 +220,24 @@ em {
     text-decoration: underline;
 }
 
+.results-middle:visited {
+    color: #609
+}
+
 .results-bottom {
     margin-top: 5px;
     margin-bottom: 29px;
     font-size: 14px;
     color: #4d5156;
     line-height: 1.58;
+}
+
+.results-3 {
+    margin-top: 30px;
+}
+
+.vids-container {
+    display: flex;
 }
 
 .vidtext {
@@ -241,10 +252,45 @@ font-size: 16px;
 .vidbox {
     display: flex;
     flex-direction: column;
-    width: 212px;
-    height: 306px;
+    margin-right: 8px;
+    margin-top: -7px;
+    margin-bottom: 29px;
+    width: 210.167px;
+    height: 304px;
     border: 1px solid #dfe1e5;
     border-radius: 8px;
+}
+
+.vid-caption {
+    padding-left: 16px;
+    padding-right: 1.6em;
+    padding-top: .78em;
+    color: #609;
+    line-height: 1.375;
+    height: 6.875em;
+}
+
+.vid-author-date {
+    line-height: 1.69;
+}
+
+.vid-author {
+    font-size: 14px;
+    margin-left: 16px;
+    margin-top: 2.5px;
+    color: #808080;
+}
+
+.vid-date {
+    display: flex;
+    font-size: 14px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: -1px;
+}
+
+.vid-date-1 {
+    color: #808080;
 }
 
 .static {
