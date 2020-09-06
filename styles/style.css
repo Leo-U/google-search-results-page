@@ -5,13 +5,14 @@ body {
 h3 {
     font-size: 20px;
     font-weight: normal;
-    color: #222;
-    
 }
 
 body a:link {
     text-decoration: none;
+    color: #1a0dab;
 }
+
+
 
 
 .header-nav-container {
@@ -299,4 +300,52 @@ font-size: 16px;
 
 .static:hover {
     opacity: 0;
+}
+
+.results-images-link {
+    font-size: 20px;
+}
+
+.results-images-link:hover {
+    text-decoration: underline;
+}
+
+.results-images-link:visited {
+    color: #609
+}
+
+.results-images-div {
+    display: flex;
+}
+
+.img-a, .img-b, .img-c, .img-d {
+    margin-right: 8px;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+}
+
+.results-images-div-2 {
+   margin-top: 13px;
+   margin-bottom: 35px;
+}
+
+.right-arrow {
+    position: absolute;
+}
+
+.results-related-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.related-list-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.related-list-2 {
+    display: flex;
+    flex-direction: column;
 }
