@@ -362,8 +362,11 @@ font-size: 16px;
     display: flex;
     flex-direction: row;
     font-size: 14px;
-    
-    
+    margin-left: 170px;
+}
+
+.gooogle-container a:hover {
+    text-decoration: underline;
 }
 
 .go {
@@ -373,8 +376,8 @@ font-size: 16px;
 }
 
 .go-image {
-    margin-bottom: 7px;
-    margin-top: -0.5px;
+    margin-bottom: 13px;
+    margin-top: 0px;
 }
 
 .o-2 {
@@ -382,14 +385,12 @@ font-size: 16px;
     flex-direction: column;
     align-items: center;
     padding-top: 8.5px;
-    
 }
-
 
 .o-2-image {
-    margin-bottom: 5px;
+    margin-bottom: 9px;
+    margin-top: 0.5px;
 }
-
 
 .o-2-text:link {
     color: #4285f4;
@@ -400,6 +401,23 @@ font-size: 16px;
 }
 
 .gle-image {
-    margin-top: -1.5px;
+    margin-top: -1.75px;
 }
 
+.angle-b-image {
+    margin-top: -2px;
+    margin-left: 1px;
+    margin-bottom: 17px;
+}
+
+.angle-b-text {
+    margin-left: -23px;
+}
+
+.angle-b-text:link {
+    color: #4285f4;
+}
+
+.angle-b-text:visited {
+    color: #4285f4;
+}
