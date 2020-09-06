@@ -208,6 +208,14 @@ em {
     font-size: 14px;
 }
 
+.results-top-1:link {
+    color: #202124;
+}
+
+.results-top-1:visited {
+    color: #202124;
+}
+
 .results-top-2 {
     color: #5f6368;
     font-size: 14px;
@@ -266,7 +274,6 @@ font-size: 16px;
     padding-left: 16px;
     padding-right: 1.6em;
     padding-top: .78em;
-    color: #609;
     line-height: 1.375;
     height: 6.875em;
 }
@@ -338,6 +345,7 @@ font-size: 16px;
     justify-content: space-between;
     font-size: 14px;
     line-height: 25px;
+    margin-bottom: 40px;
 }
 
 .related-list-1 {
@@ -349,3 +357,48 @@ font-size: 16px;
     display: flex;
     flex-direction: column;
 }
+
+.gooogle-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    
+    
+}
+
+.go {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.go-image {
+    margin-bottom: 8px;
+}
+
+.o-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8.5px;
+    
+}
+
+
+.o-2-image {
+    margin-bottom: 5px;
+}
+
+
+.o-2-text:link {
+    color: #4285f4;
+}
+
+.o-2-text:visited {
+    color: #4285f4;
+}
+
+.gle-image {
+    margin-top: -1.5px;
+}
+
