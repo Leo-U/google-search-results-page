@@ -339,6 +339,10 @@ font-size: 16px;
     text-decoration: underline;
 }
 
+.results-images-div-2:link {
+    color: #1a0dab
+}
+
 .results-images-div-2:visited {
     color: #1a0dab
 }
