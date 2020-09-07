@@ -12,9 +12,6 @@ body a:link {
     color: #1a0dab;
 }
 
-
-
-
 .header-nav-container {
     margin: 8px;
 }
@@ -23,7 +20,6 @@ body a:link {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .header-1 {
@@ -63,9 +59,7 @@ body a:link {
     background-size: 109px;
     background-position-x: 562px;
     background-position-y: 5.5px;
-
 }
-
 
 .search-form:hover {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
@@ -141,8 +135,9 @@ body a:link {
     margin-right: 4px;
 }
 
-.img-more {vertical-align: -4px;}
-
+.img-more {
+    vertical-align: -4px;
+}
 
 .nav-more {
     margin-right: 98px;
@@ -166,13 +161,11 @@ body a:link {
     margin-right: 0;
     left: 0px;
     border-bottom: 1px solid #ebebeb;
-    
 }
 
 .search-results {
     margin-left: 180px;
     width: 600px;
-
 }
 
 .results-count {
@@ -182,7 +175,6 @@ body a:link {
     margin-top: 14px;
     margin-bottom: 20px;
 }
-
 
 em {
     font-weight: bold;
@@ -198,7 +190,6 @@ em {
     border-color: #70757a transparent;
     margin-top: 9px;
     margin-left: 8px;
-
 }
 
 .results-top {margin-bottom: -12px;}
@@ -251,7 +242,6 @@ em {
 
 .vidtext {
 font-size: 16px;
-
 }
 
 .vidtext:hover {
@@ -472,13 +462,11 @@ font-size: 16px;
     color: #5f6368;
 }
 
-
 .address-span {
     color: #5f6368;
 }
 
 .atlanta{
-    
     color: #333;
     font-weight: bold;
     margin-left: 4px;
