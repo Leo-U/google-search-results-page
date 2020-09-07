@@ -384,8 +384,9 @@ font-size: 16px;
 .gooogle-container {
     display: flex;
     flex-direction: row;
+    
     font-size: 14px;
-    margin-left: 170px;
+    margin-left: 350px;
 }
 
 .gooogle-container a:hover {
@@ -395,6 +396,7 @@ font-size: 16px;
 .go {
     display: flex;
     flex-direction: column;
+    color: rgba(0,0,0,.87);
 }
 
 .go-image {
