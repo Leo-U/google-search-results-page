@@ -332,8 +332,10 @@ font-size: 16px;
 }
 
 .results-images-div-2 {
-   margin-top: 13px;
-   margin-bottom: 35px;
+   margin-top: 7px;
+   margin-bottom: 22px;
+   display: flex;
+   align-items: center;
 }
 .results-images-div-2:hover {
     text-decoration: underline;
@@ -348,7 +350,7 @@ font-size: 16px;
 }
 
 .right-arrow {
-    position: absolute;
+    margin-right: 11px;
 }
 
 .results-related-container {
